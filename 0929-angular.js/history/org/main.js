@@ -7,6 +7,7 @@ require.config({
         "jquery": "jquery.min",
         "angular": "angular.min",
         "bootstrap": "bootstrap.min",
+        "underscore":"underscore-min",
     },
     shim: {
         'underscore': {
