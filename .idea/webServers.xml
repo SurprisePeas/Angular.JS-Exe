@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="20729f3b-62b7-4710-8560-58e50f4b6e94" name="chat" url="http://c69_guoqing.houdunphp.com">
+        <fileTransfer host="c69_guoqing.houdunphp.com" port="21" rootFolder="/wwwroot/chat">
+          <advancedOptions>
+            <advancedOptions compatibilityMode="true" dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
