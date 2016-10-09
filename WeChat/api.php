@@ -1,5 +1,6 @@
 <?php
 $post = $GLOBALS['HTTP_RAW_POST_DATA'];
+//解析post数据
 $message = simplexml_load_string( $post, 'SimpleXMLElement', LIBXML_NOCDATA );
 $time=time();
 
@@ -15,19 +16,19 @@ echo <<<str
 <ArticleCount>3</ArticleCount>
 <Articles>
 	<item>
-		<Title><![CDATA[如斯]]></Title> 
+		<Title><![CDATA[如斯]]></Title>
 		<Description><![CDATA[要污一点~]]></Description>
 		<PicUrl><![CDATA[$picurl]]></PicUrl>
 		<Url><![CDATA[http://c69_guoqing.houdunphp.com/myIndex/]]></Url>
 	</item>
 	<item>
-		<Title><![CDATA[花儿与少年]]></Title> 
+		<Title><![CDATA[花儿与少年]]></Title>
 		<Description><![CDATA[要污一点~]]></Description>
 		<PicUrl><![CDATA[$picurl]]></PicUrl>
 		<Url><![CDATA[http://c69_guoqing.houdunphp.com/goo/]]></Url>
 	</item>
 	<item>
-		<Title><![CDATA[单纯的一首诗]]></Title> 
+		<Title><![CDATA[单纯的一首诗]]></Title>
 		<Description><![CDATA[要污一点~]]></Description>
 		<PicUrl><![CDATA[$picurl1]]></PicUrl>
 		<Url><![CDATA[http://c69_guoqing.houdunphp.com/my_blog/]]></Url>
